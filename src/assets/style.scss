@@ -79,3 +79,96 @@ header {
     }
   }
 }
+
+main {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: $shadow-2;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  &:hover {
+    box-shadow: $shadow-1;
+
+    .bottom div span:nth-of-type(1) {
+      background-color: $blue;
+      color: white;
+    }
+  }
+  h1 {
+    background-color: $blue;
+    width: 18%;
+    //ilgili elemana (a-r) genislik ver yukseklik ayarlamasi yapmak icin kullanilir.
+    aspect-ratio: 1;
+    min-width: 60px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    box-shadow: $shadow-2;
+    margin-bottom: 10px;
+  }
+  p:nth-of-type(1) {
+    color: grey;
+  }
+  p:nth-of-type(2) {
+    color: $blue;
+    margin-bottom: 20px;
+  }
+
+  .bottom {
+    div {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+
+      span:nth-of-type(1) {
+        background-color: rgba(128, 0, 128, 0.291);
+        padding: 8px;
+        display: grid;
+        place-items: center;
+        border-radius: 5px;
+        color: $blue;
+        transition: all 0.4s;
+      }
+      span:nth-of-type(2) {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .buttons {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    button {
+      color: #fff;
+      width: 35px;
+      aspect-ratio: 1;
+
+      &:nth-child(1) {
+        background-color: rgba(0, 157, 255);
+      }
+      &:nth-child(2) {
+        background-color: crimson;
+      }
+    }
+  }
+}
