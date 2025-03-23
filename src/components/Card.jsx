@@ -3,7 +3,7 @@ import { GrUpdate } from "react-icons/gr";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 
-const Card = ({ contact }) => {
+const Card = ({ contact, handleDelete, handleEdit }) => {
   const [name, surname] = contact.name.split(" ");
 
   // console.log(name);
@@ -13,10 +13,10 @@ const Card = ({ contact }) => {
     <div className="card">
       {/* Buttons */}
       <div className="buttons">
-        <button>
+        <button onClick={() => handleDelete(contact.id)}>
           <RiDeleteBin6Line />
         </button>
-        <button>
+        <button onClick={() => handleEdit(contact)}>
           <GrUpdate />
         </button>
       </div>

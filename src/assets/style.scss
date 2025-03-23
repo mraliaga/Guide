@@ -1,10 +1,8 @@
 // Google fonts
 @import url("https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap");
 
-// Scss imports
+// SCSS imports
 @import "./reset.scss";
-
-// Veriables
 @import "./variables.scss";
 
 .app {
@@ -15,6 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   h1 {
     @media (max-width: 750px) {
       font-size: 25px;
@@ -70,6 +69,7 @@ header {
         color: $blue;
         box-shadow: none;
       }
+
       input {
         width: 300px;
         @media (max-width: 750px) {
@@ -101,16 +101,15 @@ main {
   position: relative;
   &:hover {
     box-shadow: $shadow-1;
-
     .bottom div span:nth-of-type(1) {
       background-color: $blue;
       color: white;
     }
   }
+
   h1 {
     background-color: $blue;
     width: 18%;
-    //ilgili elemana (a-r) genislik ver yukseklik ayarlamasi yapmak icin kullanilir.
     aspect-ratio: 1;
     min-width: 60px;
     text-align: center;
@@ -122,6 +121,7 @@ main {
     box-shadow: $shadow-2;
     margin-bottom: 10px;
   }
+
   p:nth-of-type(1) {
     color: grey;
   }
@@ -135,7 +135,6 @@ main {
       display: flex;
       gap: 10px;
       margin-bottom: 10px;
-
       span:nth-of-type(1) {
         background-color: rgba(128, 0, 128, 0.291);
         padding: 8px;
@@ -162,12 +161,84 @@ main {
       color: #fff;
       width: 35px;
       aspect-ratio: 1;
-
       &:nth-child(1) {
         background-color: rgba(0, 157, 255);
       }
       &:nth-child(2) {
         background-color: crimson;
+      }
+    }
+  }
+}
+
+.modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.63);
+  inset: 0;
+  display: grid;
+  place-items: center;
+  backdrop-filter: blur(10px);
+  box-shadow: $shadow-1;
+
+  .modal-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    width: 25%;
+    max-height: 600px;
+    min-height: 380px;
+
+    .modal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        border: 1px solid grey;
+        height: 40px;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        font-size: 20px;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        input {
+          margin-top: 12px;
+          box-shadow: $shadow-2;
+          border-radius: 10px;
+        }
+        label {
+          font-weight: 700;
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 5px 20px;
+
+        &:nth-of-type(1) {
+          background-color: grey;
+          color: #fff;
+        }
+        &:nth-of-type(2) {
+          background-color: $blue;
+          color: #fff;
+        }
       }
     }
   }

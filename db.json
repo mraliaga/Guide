@@ -1,164 +1,84 @@
 {
   "contacts": [
     {
-      "id": 1,
       "name": "Ali Yılmaz",
       "position": "Software Engineer",
       "company": "TechCorp",
       "phone": "+905539260001",
-      "email": "ali.yilmaz@techcorp.com"
+      "email": "ali.yilmaz@techcorp.com",
+      "id": "1a"
     },
     {
-      "id": 2,
       "name": "Ayşe Demir",
       "position": "Project Manager",
       "company": "BizSolutions",
       "phone": "+905539260002",
-      "email": "ayse.demir@bizsolutions.com"
+      "email": "ayse.demir@bizsolutions.com",
+      "id": "2s"
     },
     {
-      "id": 3,
-      "name": "Mehmet Kaya",
-      "position": "Data Analyst",
-      "company": "DataPros",
-      "phone": "+905539260003",
-      "email": "mehmet.kaya@datapros.com"
-    },
-    {
-      "id": 4,
-      "name": "Zeynep Çelik",
-      "position": "UX Designer",
-      "company": "CreativeHub",
-      "phone": "+905539260004",
-      "email": "zeynep.celik@creativehub.com"
-    },
-    {
-      "id": 5,
-      "name": "Hasan Aksoy",
-      "position": "HR Specialist",
-      "company": "PeopleFirst",
-      "phone": "+905539260005",
-      "email": "hasan.aksoy@peoplefirst.com"
-    },
-    {
-      "id": 6,
-      "name": "Fatma Kurt",
-      "position": "Marketing Manager",
-      "company": "AdVision",
-      "phone": "+905539260006",
-      "email": "fatma.kurt@advision.com"
-    },
-    {
-      "id": 7,
-      "name": "Cem Şahin",
-      "position": "Backend Developer",
-      "company": "DevWorks",
-      "phone": "+905539260007",
-      "email": "cem.sahin@devworks.com"
-    },
-    {
-      "id": 8,
       "name": "Gizem Özkan",
       "position": "Frontend Developer",
       "company": "WebMinds",
       "phone": "+905539260008",
-      "email": "gizem.ozkan@webminds.com"
+      "email": "gizem.ozkan@webminds.com",
+      "id": "dfh8"
     },
     {
-      "id": 9,
       "name": "Okan Taş",
       "position": "Product Manager",
       "company": "Innovatech",
       "phone": "+905539260009",
-      "email": "okan.tas@innovatech.com"
+      "email": "okan.tas@innovatech.com",
+      "id": "dfh9"
     },
     {
-      "id": 10,
-      "name": "Derya Polat",
-      "position": "SEO Specialist",
-      "company": "SearchBoost",
-      "phone": "+905539260010",
-      "email": "derya.polat@searchboost.com"
-    },
-    {
-      "id": 11,
       "name": "Burak Ekinci",
       "position": "System Administrator",
       "company": "CloudNet",
       "phone": "+905539260011",
-      "email": "burak.ekinci@cloudnet.com"
+      "email": "burak.ekinci@cloudnet.com",
+      "id": "dfh11"
     },
     {
-      "id": 12,
       "name": "Ebru Aydın",
       "position": "Business Analyst",
       "company": "InsightCorp",
       "phone": "+905539260012",
-      "email": "ebru.aydin@insightcorp.com"
+      "email": "ebru.aydin@insightcorp.com",
+      "id": "dfh5r"
     },
     {
-      "id": 13,
       "name": "Hakan Yıldız",
       "position": "DevOps Engineer",
       "company": "DeployIt",
       "phone": "+905539260013",
-      "email": "hakan.yildiz@deployit.com"
+      "email": "hakan.yildiz@deployit.com",
+      "id": "12sdg"
     },
     {
-      "id": 14,
       "name": "Selin Koç",
       "position": "Graphic Designer",
       "company": "ArtVision",
       "phone": "+905539260014",
-      "email": "selin.koc@artvision.com"
+      "email": "selin.koc@artvision.com",
+      "id": "13sdg"
     },
     {
-      "id": 15,
       "name": "Serkan Ersoy",
       "position": "IT Support",
       "company": "TechAssist",
       "phone": "+905539260015",
-      "email": "serkan.ersoy@techassist.com"
+      "email": "serkan.ersoy@techassist.com",
+      "id": "14sdg"
     },
     {
-      "id": 16,
       "name": "Deniz Uğur",
       "position": "Database Administrator",
       "company": "DataKeepers",
       "phone": "+905539260016",
-      "email": "deniz.ugur@datakeepers.com"
-    },
-    {
-      "id": 17,
-      "name": "Yasemin Arslan",
-      "position": "Cybersecurity Specialist",
-      "company": "SecureNet",
-      "phone": "+905539260017",
-      "email": "yasemin.arslan@securenet.com"
-    },
-    {
-      "id": 18,
-      "name": "Tolga Keskin",
-      "position": "Mobile Developer",
-      "company": "AppMakers",
-      "phone": "+905539260018",
-      "email": "tolga.keskin@appmakers.com"
-    },
-    {
-      "id": 19,
-      "name": "Cansu Demirtaş",
-      "position": "QA Engineer",
-      "company": "TestIt",
-      "phone": "+905539260019",
-      "email": "cansu.demirtas@testit.com"
-    },
-    {
-      "id": 20,
-      "name": "Murat Aslan",
-      "position": "Network Engineer",
-      "company": "NetSolutions",
-      "phone": "+905539260020",
-      "email": "murat.aslan@netsolutions.com"
+      "email": "deniz.ugur@datakeepers.com",
+      "id": "14ssdfdg"
     }
   ]
 }
